@@ -1,0 +1,29 @@
+// pages/404.js
+import Head from "next/head";
+import Link from "next/link";
+
+export default function Custom404() {
+  return (
+    <>
+      <Head>
+        <title>PC Builder | Page Not Found</title>
+      </Head>
+
+      <div className="heightFix flex items-center justify-center text-center ">
+        <div className="max-w-screen-xl mx-auto flex-col items-center justify-center">
+          <div className="sm:mb-10 mb-6 overflow-hidden">
+            <h1 className="font-extrabold sm:text-9xl text-8xl text-blue-light">
+              404
+            </h1>
+            <p className="sm:mt-6 mt-4 uppercase font-medium sm:text-2xl text-xl">
+              Page Not Found
+            </p>
+          </div>
+          <Link href={"/"} className="button py-2 px-10 lg:text-lg text-base">
+            HomePage
+          </Link>
+        </div>
+      </div>
+    </>
+  );
+}

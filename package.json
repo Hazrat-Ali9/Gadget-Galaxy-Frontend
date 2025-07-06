@@ -1,0 +1,35 @@
+{
+  "name": "pc-builder-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "react-scripts start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.5.1",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "js-cookie": "^3.0.5",
+    "next": "13.4.12",
+    "next-auth": "^4.22.3",
+    "next-redux-wrapper": "^8.1.0",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icon": "^1.0.0",
+    "react-icons": "^4.11.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-loading-skeleton": "^3.3.1",
+    "react-onclickoutside": "^6.13.0",
+    "react-redux": "^8.1.1",
+    "tailwindcss": "3.3.3"
+  }
+}
