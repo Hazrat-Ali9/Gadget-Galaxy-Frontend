@@ -5,5 +5,5 @@ const nextConfig = {
     domains: ["avatars.githubusercontent.com", "www.startech.com.bd"],
   },
 };
-
+// next config
 module.exports = nextConfig;
