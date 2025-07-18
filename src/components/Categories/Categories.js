@@ -1,7 +1,7 @@
 import { useGetFeatherQuery } from "@/redux/features/productFeather/productFeather";
 import { useRouter } from "next/router";
 import React from "react";
-
+// Catagoris
 const Categories = () => {
   const router = useRouter()
   const { data: productFeather, isLoading, isError } = useGetFeatherQuery()
