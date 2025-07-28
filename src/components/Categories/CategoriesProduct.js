@@ -1,5 +1,5 @@
 import Product from "../Product/Product";
-
+// Catagories Product
 function CategoriesProduct({ products, categoryName }) {
   return (
     <div className="w-full py-20 px-6 bg-gray-100 mt-10" id="products-feed">
