@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Choose us
 const ChooseUs = () => {
     return (
         <div className='m-10 md:px-10 mx-auto max-w-screen-xl md:pt-10 rounded-xl bg-[#f5f5f5]'>
