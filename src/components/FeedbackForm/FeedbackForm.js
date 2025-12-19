@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import FeedFrom from './FeedFrom';
-
+// FeedbackFrom
 const FeedbackForm = () => {
     return (
         <div className='p-10 '>
